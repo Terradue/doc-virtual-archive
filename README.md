@@ -1,4 +1,4 @@
-# Developer Cloud Sandbox Documentation
+# Virtual Archive Documentation
 
 This is the official repository of the Virtual Archive. 
 
