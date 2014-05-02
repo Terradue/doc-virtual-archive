@@ -1,9 +1,9 @@
 # Developer Cloud Sandbox Documentation
 
-This is the official repository of the Developer Cloud Sandbox. 
+This is the official repository of the Virtual Archive. 
 
 This documentation is live at:
-[http://docs.terradue.com/developer-sandbox](http://docs.terradue.com/developer-sandbox).
+[http://docs.terradue.com/virtual-archive](http://docs.terradue.com/virtual-archive).
 
 You are encouraged to fork this repo and send us pull requests!
 
@@ -23,7 +23,7 @@ sudo yum install python-pip
 sudo pip install sphinx_bootstrap_theme
 
 # Clone the git repository
-git clone git@github.com:Terradue/doc-developer-sandbox.git
+git clone git@github.com:Terradue/doc-virtual-archive.git
 ```
 
 If needed, set your github information
@@ -46,13 +46,14 @@ As root, do:
 
 ```
 cd /var/www/html
-ln -s $GIT_CLONE_DIR/doc-developer-sandbox/build/html/ developer-sandbox
-chown -R apache:apache developer-sandbox
-chmod -R g+w developer-sandbox
+ln -s $GIT_CLONE_DIR/doc-virtual-archive/build/html/ virtual-archive
+chown -R apache:apache virtual-archive
+chmod -R g+w virtual-archive
 ```
+
 > Replace $GIT_CLONE_DIR with the path to the folder where you have cloned the repository
 
-Open you browser at the address http://127.0.0.1/developer-sandbox
+Open you browser at the address http://127.0.0.1/virtual-archive
 
 ## This documentation is built with sphinx-doc
 
