@@ -10,6 +10,8 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-   
-   Getting Started Guide <start/index>
 
+   Getting Started Guide <start/index>
+   Developer's Quick start <developer/index>
+   Graphical User Interface <gui/index>
+   Reference Guide <reference/index>
